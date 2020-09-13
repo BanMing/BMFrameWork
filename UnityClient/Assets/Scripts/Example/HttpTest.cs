@@ -31,7 +31,7 @@ public class HttpTest : MonoBehaviour
     }
     private IEnumerator getText(string url)
     {
-        var req = UnityWebRequest.GetAssetBundle(url);
+        var req = UnityWebRequestAssetBundle.GetAssetBundle(url);
         req.SendWebRequest();
         // DownloadHandlerAssetBundle.GetContent(req)
         using (UnityWebRequest www = UnityWebRequest.Get(url))
@@ -53,15 +53,16 @@ public class HttpTest : MonoBehaviour
     {
         text = GameObject.Find("Text").GetComponent<Text>();
     }
-    public async void Click()
-    {
-        // text.text = await GetText("ssssssssssssssssss");
-        // text.text = "3";
-        // text.text = await GetText("sss2");
-        // text.text = "4";
-        // HTTPTool.DownLoadFile("http://www.ban-ming.com/serverfile.txt", (isDown) => { }, Application.dataPath+"/test.txt");
-        var bytes = File.ReadAllBytes(Application.dataPath + "/test.txt");
-        UploadHandlerRaw uploadHandler = new UploadHandlerRaw(bytes);
-        HTTPTool.UploadFile("http://www.ban-ming.com/serverfile.txt", uploadHandler, (isOk) => { UnityEngine.Debug.Log("isOk:" + isOk); });
-    }
+
+    //public async void Click()
+    //{
+    //    // text.text = await GetText("ssssssssssssssssss");
+    //    // text.text = "3";
+    //    // text.text = await GetText("sss2");
+    //    // text.text = "4";
+    //    // HTTPTool.DownLoadFile("http://www.ban-ming.com/serverfile.txt", (isDown) => { }, Application.dataPath+"/test.txt");
+    //    var bytes = File.ReadAllBytes(Application.dataPath + "/test.txt");
+    //    UploadHandlerRaw uploadHandler = new UploadHandlerRaw(bytes);
+    //    HTTPTool.UploadFile("http://www.ban-ming.com/serverfile.txt", uploadHandler, (isOk) => { UnityEngine.Debug.Log("isOk:" + isOk); });
+    //}
 }
