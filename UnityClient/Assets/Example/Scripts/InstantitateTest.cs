@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 public class InstantitateTest : MonoBehaviour
 {
 
-    public GameObject gameObject;
+    public GameObject go;
     // Use this for initialization
     void Start()
     {
@@ -29,7 +29,7 @@ public class InstantitateTest : MonoBehaviour
             go.transform.position = Vector3.one * index;
             index++;
         };
-        InstantiateTool.Instance.InstantiateByAsync(gameObject, 1000, callbcak, 100);
+        InstantiateTool.Instance.InstantiateByAsync(go, 1000, callbcak, 100);
         Debug.Log("finish?");
     }
 }
