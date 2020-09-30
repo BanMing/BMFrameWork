@@ -18,7 +18,6 @@ public class InstantitateTest : MonoBehaviour
 
     }
 
-
     public void InstantiateByAsync()
     {
         int index = 0;
