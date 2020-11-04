@@ -4,9 +4,6 @@
 //// author:BanMing   
 //// des:网络连接测试
 ////////////////////////////////////////////////////////////////////////////////////////////
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 public class TcpTest : MonoBehaviour

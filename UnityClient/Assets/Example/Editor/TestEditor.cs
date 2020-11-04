@@ -1,7 +1,7 @@
 ﻿using BMBaseCore;
+using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
-using System.Collections.Generic;
 
 public class TestEditor
 {

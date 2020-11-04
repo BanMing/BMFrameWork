@@ -4,11 +4,9 @@
 //// author:BanMing   
 //// des:配置
 ////////////////////////////////////////////////////////////////////////////////////////////
-using System;
-using System.Collections;
-using System.Collections.Generic;
 
-public class AppConst {
+public class AppConst
+{
     // ip
     public static string SocketAddress = "127.0.0.1";
     // 端口
