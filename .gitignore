@@ -34,3 +34,11 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# assetbundle test
+UnityClient/Assets/Res/Login/
+UnityClient/Assets/Res/Atlas/
+UnityClient/Assets/Res/AnimClips/
+UnityClient/Assets/Res/Login.meta
+UnityClient/Assets/Res/Atlas.meta
+UnityClient/Assets/Res/AnimClips.meta
