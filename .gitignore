@@ -35,6 +35,9 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
+UnityClient/Assets/StreamingAssets/bundles/
+UnityClient/Assets/StreamingAssets/bundles.meta
+
 # assetbundle test
 UnityClient/Assets/Res/Login/
 UnityClient/Assets/Res/Atlas/

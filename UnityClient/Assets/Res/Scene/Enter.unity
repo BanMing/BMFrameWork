@@ -339,3 +339,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f887f9286a2440d49a4a6a7dc286da32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gameConfig:
+    isAssertBundle: 0
+    version1: 44
+    version2: 0
+    version3: 0
