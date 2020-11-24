@@ -1,0 +1,3 @@
+[submodule "UnityClient/Assets/BMBaseCore"]
+	path = UnityClient/Assets/BMBaseCore
+	url = https://github.com/BanMing/BMBaseCore.git
